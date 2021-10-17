@@ -65,7 +65,7 @@ const templateFunction: TemplateFunction = async answers => {
 		] : []),
 		...((useTypeScript || useReact) ? [
 			// If we need to compile anything, do it with ESBuild/Estrella
-			"estrella",
+			"estrella@1",
 			// TODO: when https://github.com/rsms/estrella/pull/47/files is merged,
 			// add esbuild as a devDependency
 			"tiny-glob",
