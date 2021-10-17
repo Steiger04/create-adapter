@@ -7,6 +7,7 @@
 -->
 ## __WORK IN PROGRESS__
 * (UncleSamSwiss) Updated axios to version 0.23.0 including generated typescript code (#833) · [Migration guide](docs/updates/20211013_axios_0_23.md)
+* (AlCalzone) Switch build process (React, TypeScript) from `parcel` to `esbuild` (#838) · [Migration guide](docs/updates/20211017_esbuild.md)
 
 ## 2.0.1 (2021-09-15)
 * (UncleSamSwiss) Release script is currently fixed to version 2 as we don't support the new command line format yet (#823)
